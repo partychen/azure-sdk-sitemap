@@ -8,6 +8,16 @@
                 "!sdk/.*/README\\.md"
             ],
             "sitemap": "azure-sdk-for-net.xml"
+        },
+        {
+            "name": "azure-sdk-for-java",
+            "url": "https://github.com/azure/azure-sdk-for-java",
+            "filters": [
+                "sdk/.*/Sample.*\\.md",
+                "!sdk/.*/README\\.md",
+                "!sdk/.*/CHANGELOG\\.md"
+            ],
+            "sitemap": "azure-sdk-for-java.xml"
         }
     ]
 }
