@@ -14,7 +14,7 @@ foreach ($repo in $config.repos) {
     $sitemapName = $repo.sitemap
 
     $repoDir = "$repoDir\$repoName"
-    git clone $repoUrl $repoDir
+    git clone -c core.longpaths=true $repoUrl $repoDir
     Set-Location $repoDir
 
     $includes = ($repo.filters | Where-Object { $_ -notmatch "^!" } | ForEach-Object { $_ }) -join "|"
