@@ -1,4 +1,1995 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample10_EmbeddingsWithAoai.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample1_ChatCompletions.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample2_ChatCompletionsWithAoai.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample3_ChatCompletionsStreaming.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample4_ChatCompletionsWithHistory.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample5_ChatCompletionsWithImages.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample6_ChatCompletionsWithAdditionalProperties.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample7_ChatCompletionsWithTools.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample8_ChatCompletionsWithOpenTelemetry.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/ai/Azure.AI.Inference/samples/Sample9_Embeddings.md</loc>
+    <lastmod>2024-10-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/anomalydetector/Azure.AI.AnomalyDetector/samples/Sample1_DetectEntireSeriesAnomaly.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/anomalydetector/Azure.AI.AnomalyDetector/samples/Sample2_DetectLastPointAnomaly.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/anomalydetector/Azure.AI.AnomalyDetector/samples/Sample3_DetectChangePoint.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/anomalydetector/Azure.AI.AnomalyDetector/samples/Sample4_MultivariateDetect.md</loc>
+    <lastmod>2024-01-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample10_SecretReference.md</loc>
+    <lastmod>2024-08-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample11_SettingsSnapshot.md</loc>
+    <lastmod>2023-10-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample12_GetSettingsUsingTags.md</loc>
+    <lastmod>2024-06-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample2_HelloWorldExtended.md</loc>
+    <lastmod>2024-07-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample3_SetClearReadOnly.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample4_ReadRevisionHistory.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample5_GetSettingIfChanged.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample6_UpdateSettingIfUnchanged.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample7_MockClient.md</loc>
+    <lastmod>2023-08-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample8_ChangeNotification.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.Data.AppConfiguration/samples/Sample9_FeatureFlags.md</loc>
+    <lastmod>2021-06-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/appconfiguration/Azure.ResourceManager.AppConfiguration/samples/Sample1_ManagingConfigurationStores.md</loc>
+    <lastmod>2022-08-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/batch/Azure.Compute.Batch/samples/Sample1_CreatePool_Job_Task.md</loc>
+    <lastmod>2024-07-02</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cdn/Azure.ResourceManager.Cdn/samples/Sample1_ManagingCdnOriginGroups.md</loc>
+    <lastmod>2022-06-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cdn/Azure.ResourceManager.Cdn/samples/Sample2_ManagingFrontDoorRules.md</loc>
+    <lastmod>2022-07-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample1_AnalyzeConversation_ConversationPrediction.md</loc>
+    <lastmod>2024-08-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample2_AnalyzeConversation_OrchestrationPrediction.md</loc>
+    <lastmod>2024-08-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample3_AnalyzeConversationWithLanguage.md</loc>
+    <lastmod>2024-08-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample4_AnalyzeConversationWithOptions.md</loc>
+    <lastmod>2024-08-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample5_ImportProject.md</loc>
+    <lastmod>2024-08-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample6_AnalyzeConversation_ConversationSummarization.md</loc>
+    <lastmod>2024-08-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample7_ExportProject.md</loc>
+    <lastmod>2024-08-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Conversations/samples/Sample8_AnalyzeConversation_ConversationPii.md</loc>
+    <lastmod>2024-08-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.QuestionAnswering/samples/Sample1_GetAnswers.md</loc>
+    <lastmod>2022-09-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.QuestionAnswering/samples/Sample2_Chat.md</loc>
+    <lastmod>2022-09-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.QuestionAnswering/samples/Sample3_CreateAndDeploy.md</loc>
+    <lastmod>2022-09-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.QuestionAnswering/samples/Sample4_ExportAndImport.md</loc>
+    <lastmod>2022-09-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.QuestionAnswering/samples/Sample5_UpdateKnowledgeSources.md</loc>
+    <lastmod>2022-09-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample10_AnalyzeTextOperationAsync_CustomMultiLabelClassificationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample10_AnalyzeTextOperation_CustomMultiLabelClassificationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample11_AnalyzeTextOperationAsync_ExtractiveSummarizationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample11_AnalyzeTextOperation_ExtractiveSummarizationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample12_AnalyzeTextOperationAsync_AbstractiveSummarizationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample12_AnalyzeTextOperation_AbstractiveSummarizationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample13_AnalyzeTextOperationAsync_MultipleActions.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample13_AnalyzeTextOperation_MultipleActions.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample1_AnalyzeTextAsync_LanguageDetection.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample1_AnalyzeText_LanguageDetection.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample2_AnalyzeTextAsync_Sentiment.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample2_AnalyzeText_Sentiment.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample3_AnalyzeTextAsync_ExtractKeyPhrases.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample3_AnalyzeText_ExtractKeyPhrases.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample4_AnalyzeTextAsync_RecognizeEntities.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample4_AnalyzeText_RecognizeEntities.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample5_AnalyzeTextAsync_RecognizePiiEntities.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample5_AnalyzeText_RecognizePiiEntities.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample6_AnalyzeTextAsync_RecognizeLinkedEntities.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample6_AnalyzeText_RecognizeLinkedEntities.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample7_AnalyzeTextOperationAsync_HealthcareOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample7_AnalyzeTextOperation_HealthcareOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample8_AnalyzeTextOperationAsync_CustomEntitiesOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample8_AnalyzeTextOperation_CustomEntitiesOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample9_AnalyzeTextOperationAsync_CustomSingleLabelClassificationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/cognitivelanguage/Azure.AI.Language.Text/samples/Sample9_AnalyzeTextOperation_CustomSingleLabelClassificationOperationAction.md</loc>
+    <lastmod>2024-08-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.AlphaIds/samples/Sample1_AlphaIdsClient.md</loc>
+    <lastmod>2022-08-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.CallAutomation/samples/Sample1_CreateCall.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.CallAutomation/samples/Sample1_CreateCallAsync.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.CallingServer/samples/Sample1_CreateCall.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.CallingServer/samples/Sample1_CreateCallAsync.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample1_SendSimpleEmailWithAutomaticPollingForStatus.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample1_SendSimpleEmailWithAutomaticPollingForStatusAsync.md</loc>
+    <lastmod>2023-03-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample2_SendSimpleEmailWithManualPollingForStatus.md</loc>
+    <lastmod>2023-03-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample2_SendSimpleEmailWithManualPollingForStatusAsync.md</loc>
+    <lastmod>2023-03-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample3_SendEmailWithMoreOptions.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample3_SendEmailWithMoreOptionsAsync.md</loc>
+    <lastmod>2023-03-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample4_SendEmailToMultipleRecipients.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample4_SendEmailToMultipleRecipientsAsync.md</loc>
+    <lastmod>2023-03-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample5_SendEmailWithAttachment.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample5_SendEmailWithAttachmentAsync.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample6_SendEmailWithInlineAttachment.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Email/samples/Sample6_SendEmailWithInlineAttachmentAsync.md</loc>
+    <lastmod>2024-09-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Identity/samples/Sample1_CommunicationIdentityClient.md</loc>
+    <lastmod>2024-05-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Identity/samples/Sample1_CommunicationIdentityClientAsync.md</loc>
+    <lastmod>2024-05-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/ClassificationPolicyCrud.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/ClassificationPolicyCrudAsync.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/DistributionPolicyCrud.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/DistributionPolicyCrudAsync.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/ExceptionPolicyCrud.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/ExceptionPolicyCrudAsync.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/JobQueueCrud.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/JobQueueCrudAsync.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/RouterJobCrud.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/RouterJobCrudAsync.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/RouterWorkerCrud.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/RouterWorkerCrudAsync.md</loc>
+    <lastmod>2023-11-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2024-09-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample1_HelloWorldAsync.md</loc>
+    <lastmod>2024-09-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample1_RequestedWorkerSelectorAsync.md</loc>
+    <lastmod>2022-08-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample2_ClassificationWithPriorityRuleAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample2_ClassificationWithQueueSelectorAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample2_ClassificationWithWorkerSelectorAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample3_AdvancedDistributionAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample3_SimpleDistributionAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample4_QueueLengthExceptionTriggerAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample4_WaitTimeExceptionAsync.md</loc>
+    <lastmod>2023-11-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.JobRouter/samples/Sample5_LimitConcurrentOffersToWorkers.md</loc>
+    <lastmod>2024-02-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.PhoneNumbers/samples/Sample_PhoneNumbersClient.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.PhoneNumbers/samples/Sample_PhoneNumbersClientAsync.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.PhoneNumbers/samples/Sample_SipRoutingClient.md</loc>
+    <lastmod>2022-06-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.PhoneNumbers/samples/Sample_SipRoutingClientAsync.md</loc>
+    <lastmod>2022-06-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.ProgrammableConnectivity/samples/DeviceNetworkSample.md</loc>
+    <lastmod>2024-05-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.ProgrammableConnectivity/samples/LocationSample.md</loc>
+    <lastmod>2024-05-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.ProgrammableConnectivity/samples/NumberVerificationSample.md</loc>
+    <lastmod>2024-05-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.ProgrammableConnectivity/samples/SimSwapSample.md</loc>
+    <lastmod>2024-05-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Rooms/tests/Samples/Sample1_RoomsRequests.md</loc>
+    <lastmod>2024-04-02</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.ShortCodes/samples/Sample1_ShortCodesClient.md</loc>
+    <lastmod>2022-03-16</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Sms/samples/Sample1_SendSms.md</loc>
+    <lastmod>2024-04-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.Communication.Sms/samples/Sample1_SendSmsAsync.md</loc>
+    <lastmod>2024-04-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/communication/Azure.ResourceManager.Communication/samples/Sample1_ManagingCommunicationService.md</loc>
+    <lastmod>2022-06-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/compute/Azure.ResourceManager.Compute/samples/Sample1_ManagingDisks.md</loc>
+    <lastmod>2022-07-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/compute/Azure.ResourceManager.Compute/samples/Sample2_ManagingVirtualMachines.md</loc>
+    <lastmod>2022-07-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/confidentialledger/Azure.Security.CodeTransparency/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2024-03-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/confidentialledger/Azure.Security.CodeTransparency/samples/Sample2_ReceiptDownloadVerification.md</loc>
+    <lastmod>2024-03-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/confidentialledger/Azure.Security.CodeTransparency/samples/Sample3_UseYourCredentials.md</loc>
+    <lastmod>2024-03-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/confidentialledger/Azure.Security.CodeTransparency/samples/Sample4_FindYourReceipt.md</loc>
+    <lastmod>2024-03-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/confidentialledger/Azure.Security.ConfidentialLedger/tests/samples/CertificateServiceSample.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample01a_HelloWorld.md</loc>
+    <lastmod>2023-04-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample01b_HelloWorldAsync.md</loc>
+    <lastmod>2023-04-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample02a_DeleteImages.md</loc>
+    <lastmod>2023-03-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample02b_DeleteImagesAsync.md</loc>
+    <lastmod>2023-03-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample03a_SetImageProperties.md</loc>
+    <lastmod>2023-03-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample03b_SetImagePropertiesAsync.md</loc>
+    <lastmod>2023-03-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample04a_AnonymousListTags.md</loc>
+    <lastmod>2023-03-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample04b_AnonymousListTagsAsync.md</loc>
+    <lastmod>2023-03-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/containerregistry/Azure.Containers.ContainerRegistry/samples/Sample05_UploadDownloadImage.md</loc>
+    <lastmod>2023-05-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/contentsafety/Azure.AI.ContentSafety/samples/Sample1_AnalyzeText.md</loc>
+    <lastmod>2023-11-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/contentsafety/Azure.AI.ContentSafety/samples/Sample2_AnalyzeImage.md</loc>
+    <lastmod>2023-11-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/contentsafety/Azure.AI.ContentSafety/samples/Sample3_ManageTextBlocklist.md</loc>
+    <lastmod>2023-11-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/Configuration.md</loc>
+    <lastmod>2023-04-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/Diagnostics.md</loc>
+    <lastmod>2023-11-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/DynamicContent.md</loc>
+    <lastmod>2023-06-16</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/Events.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/LongRunningOperations.md</loc>
+    <lastmod>2021-07-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/Mocking.md</loc>
+    <lastmod>2023-07-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/Pipeline.md</loc>
+    <lastmod>2022-09-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/ProtocolMethods.md</loc>
+    <lastmod>2024-08-31</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/RequestContext.md</loc>
+    <lastmod>2022-04-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/samples/Response.md</loc>
+    <lastmod>2023-05-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/Azure.Core/tests/samples/FakeClients/fake-swagger/autorest.md</loc>
+    <lastmod>2023-05-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/System.ClientModel/samples/ClientImplementation.md</loc>
+    <lastmod>2024-03-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/System.ClientModel/samples/Configuration.md</loc>
+    <lastmod>2024-03-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/System.ClientModel/samples/ModelReaderWriter.md</loc>
+    <lastmod>2024-08-12</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/core/System.ClientModel/samples/ServiceMethods.md</loc>
+    <lastmod>2024-03-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample1_DevCenterClient_HelloWorldAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample2_DevBoxesClient_HelloWorldAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample3_EnvironmentsClient_HelloWorldAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample4_CreateDeleteDevBoxAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample5_StopStartRestartDevBoxAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample6_GetDelaySkipDevBoxActionsAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/devcenter/Azure.Developer.DevCenter/samples/Sample7_CreateDeleteEnvironmentAsync.md</loc>
+    <lastmod>2024-03-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample1_HelloWorldAsync.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample2_GetUpdates.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample2_GetUpdatesAsync.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample3_ImportUpdate.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample3_ImportUpdateAsync.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample4_DeleteUpdate.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample4_DeleteUpdateAsync.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample5_GetDevice.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample5_GetDeviceAsync.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample6_DeployUpdate.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.IoT.DeviceUpdate/samples/Sample6_DeployUpdateAsync.md</loc>
+    <lastmod>2023-02-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.ResourceManager.DeviceUpdate/samples/Sample1_ManagingDeviceUpdateAccounts.md</loc>
+    <lastmod>2022-04-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/deviceupdate/Azure.ResourceManager.DeviceUpdate/samples/Sample2_ManagingDeviceUpdateInstances.md</loc>
+    <lastmod>2023-11-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/dns/Azure.ResourceManager.Dns/samples/Sample1_ManagingDNSZones.md</loc>
+    <lastmod>2023-04-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/dns/Azure.ResourceManager.Dns/samples/Sample2_ManagingPtrRecord.md</loc>
+    <lastmod>2023-04-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_AddOnCapabilities.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_AnalyzeWithPrebuiltModel.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_BuildCustomModel.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_BuildDocumentClassifier.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_ClassifyDocument.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_CopyCustomModel.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_ExtractLayout.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_ExtractLayoutAsMarkdown.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_GetAndListOperations.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_ManageModels.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/documentintelligence/Azure.AI.DocumentIntelligence/samples/Sample_ModelCompose.md</loc>
+    <lastmod>2024-10-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/easm/Azure.Analytics.Defender.Easm/samples/Sample1_DiscoveryGroups.md</loc>
+    <lastmod>2024-03-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/easm/Azure.Analytics.Defender.Easm/samples/Sample2_AssetResources.md</loc>
+    <lastmod>2024-03-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/easm/Azure.Analytics.Defender.Easm/samples/Sample3_DiscoveryTemplates.md</loc>
+    <lastmod>2024-03-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/easm/Azure.Analytics.Defender.Easm/samples/Sample4_SavedFilters.md</loc>
+    <lastmod>2024-03-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/easm/Azure.Analytics.Defender.Easm/samples/Sample5_ManagingExternalIds.md</loc>
+    <lastmod>2024-03-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventgrid/Azure.Messaging.EventGrid.Namespaces/samples/Sample1_Namespaces.md</loc>
+    <lastmod>2024-07-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventgrid/Azure.Messaging.EventGrid.Namespaces/samples/Sample2_CNCF.md</loc>
+    <lastmod>2024-07-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventgrid/Azure.Messaging.EventGrid/samples/Sample1_PublishEventsToTopic.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventgrid/Azure.Messaging.EventGrid/samples/Sample2_PublishEventsToDomain.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventgrid/Azure.Messaging.EventGrid/samples/Sample3_ParseAndDeserializeEvents.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample01_HelloWorld.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample02_EventProcessorConfiguration.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample03_EventProcessorHandlers.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample04_ProcessingEvents.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample05_IdentityAndSharedAccessCredentials.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample06_RequestingStorageServiceVersions.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample07_BatchProcessing.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs.Processor/samples/Sample08_MockingClientTypes.md</loc>
+    <lastmod>2022-10-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample01_HelloWorld.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample02_EventHubsClients.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample03_EventHubMetadata.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample04_PublishingEvents.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample05_ReadingEvents.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample06_IdentityAndSharedAccessCredentials.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample07_EarlierLanguageVersions.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample08_CustomEventProcessor.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample09_ObservableEventBatch.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample10_AzureEventSourceListener.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/Sample11_MockingClientTypes.md</loc>
+    <lastmod>2024-10-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/eventhub/Azure.ResourceManager.EventHubs/samples/Sample1_ManagingEventHubs.md</loc>
+    <lastmod>2022-06-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample1_FaceDetection.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample1_FaceDetectionAsync.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample2_DetectLivenessWithSession.md</loc>
+    <lastmod>2024-05-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample2_DetectLivenessWithSessionAsync.md</loc>
+    <lastmod>2024-05-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample3_DetectLivenessWithVerifyWithSession.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample3_DetectLivenessWithVerifyWithSessionAsync.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample4_StatelessFaceRecognition.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample4_StatelessFaceRecognitionAsync.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample5_LargePersonGroup.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample5_LargePersonGroupAsync.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample6_LargeFaceList.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/face/Azure.AI.Vision.Face/samples/Sample6_LargeFaceListAsync.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_AnalyzePrebuiltDocument.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_AnalyzePrebuiltRead.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_AnalyzeWithCustomModel.md</loc>
+    <lastmod>2023-08-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_AnalyzeWithPrebuiltModel.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_BuildCustomModel.md</loc>
+    <lastmod>2023-08-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_BuildDocumentClassifier.md</loc>
+    <lastmod>2023-08-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_ClassifyDocument.md</loc>
+    <lastmod>2023-08-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_CopyCustomModel.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_ExtractLayout.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_GetAndListOperations.md</loc>
+    <lastmod>2023-08-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_ManageModels.md</loc>
+    <lastmod>2023-08-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_MockClient.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/Sample_ModelCompose.md</loc>
+    <lastmod>2023-08-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample10_RecognizeInvoices.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample11_RecognizeIdentityDocuments.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample1_RecognizeFormContent.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample2_RecognizeCustomForms.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample3_RecognizeReceipts.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample4_StronglyTypingARecognizedForm.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample5_TrainModel.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample6_ManageCustomModels.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample7_CopyCustomModel.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample8_ModelCompose.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample9_RecognizeBusinessCards.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/formrecognizer/Azure.AI.FormRecognizer/samples/V3.1/Sample_MockClient.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample1_HelloWorldAsync.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample2_CreateJob.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample2_CreateJobAsync.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample3_ListJobs.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample3_ListJobsAsync.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample4_ListCompletedFiles.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthdataaiservices/Azure.Health.Deidentification/samples/Sample4_ListCompletedFilesAsync.md</loc>
+    <lastmod>2024-07-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.CancerProfiling/samples/Sample01_InferCancerProfile.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.CancerProfiling/samples/Sample01_InferCancerProfileAsync.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.ClinicalMatching/samples/Sample01_MatchTrials.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.ClinicalMatching/samples/Sample01_MatchTrialsAsync.md</loc>
+    <lastmod>2023-12-19</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_AgeMismatchSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_AgeMismatchSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_CompleteOrderDiscrepancySample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_CompleteOrderDiscrepancySampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_CriticalResultSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_CriticalResultSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_FindingSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_FindingSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_FollowupCommunicationSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_FollowupCommunicationSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_FollowupRecommendationSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_FollowupRecommendationSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_LateralityDiscrepancySample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_LateralityDiscrepancySampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_LimitedOrderSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_LimitedOrderSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_RadiologyProcedureSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_RadiologyProcedureSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_SexMismatchSample.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/healthinsights/Azure.Health.Insights.RadiologyInsights/samples/Sample01_SexMismatchSampleAsync.md</loc>
+    <lastmod>2024-08-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/identity/Azure.Identity/samples/ClientCertificateCredentialSamples.md</loc>
+    <lastmod>2023-10-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/identity/Azure.Identity/samples/ClientSideUserAuthentication.md</loc>
+    <lastmod>2024-07-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/identity/Azure.Identity/samples/DefiningCustomCredentialTypes.md</loc>
+    <lastmod>2023-10-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/identity/Azure.Identity/samples/OtherCredentialSamples.md</loc>
+    <lastmod>2024-10-16</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/identity/Azure.Identity/samples/TokenCache.md</loc>
+    <lastmod>2024-07-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.ResourceManager.KeyVault/samples/Sample1_ManagingKeyVaults.md</loc>
+    <lastmod>2022-07-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample1_BackupHelloWorldAsync.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample1_BackupHelloWorldSync.md</loc>
+    <lastmod>2022-11-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample1_RbacHelloWorldAsync.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample1_RbacHelloWorldSync.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample2_RbacScopeAssignment.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample2_SelectiveRestore.md</loc>
+    <lastmod>2022-11-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample3_BackRestoreResume.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Administration/samples/Sample4_UpdateSettings.md</loc>
+    <lastmod>2022-10-31</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Certificates/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Certificates/samples/Sample2_GetCertificates.md</loc>
+    <lastmod>2023-04-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Certificates/samples/Sample2_ImportCertificate.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Certificates/samples/Sample4_DownloadCertificate.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample2_BackupAndRestore.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample3_GetKeys.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample4_EncryptDecrypt.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample5_SignVerify.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample6_WrapUnwrap.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample7_SerializeJsonWebKey.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Keys/samples/Sample8_KeyRotation.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Secrets/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Secrets/samples/Sample2_BackupAndRestore.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Secrets/samples/Sample3_GetSecrets.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/Azure.Security.KeyVault.Secrets/samples/Sample4_ErrorResponse.md</loc>
+    <lastmod>2023-05-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/keyvault/samples/sharelink/autorest.md</loc>
+    <lastmod>2023-07-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample1_CreateOrUpdateTest.md</loc>
+    <lastmod>2023-01-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample1_CreateOrUpdateTestAsync.md</loc>
+    <lastmod>2023-01-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample2_BeginUploadTestFile.md</loc>
+    <lastmod>2023-02-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample2_BeginUploadTestFileAsync.md</loc>
+    <lastmod>2023-02-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample3_CreateOrUpdateAppComponent.md</loc>
+    <lastmod>2023-01-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample3_CreateOrUpdateAppComponentAsync.md</loc>
+    <lastmod>2023-01-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample4_BeginTestRun.md</loc>
+    <lastmod>2023-02-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample4_BeginTestRunAsync.md</loc>
+    <lastmod>2023-02-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample5_GetMetrics.md</loc>
+    <lastmod>2023-01-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/loadtestservice/Azure.Developer.LoadTesting/samples/Sample5_GetMetricsAsync.md</loc>
+    <lastmod>2023-01-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Common/samples/LocalizedMapView.md</loc>
+    <lastmod>2022-09-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Geolocation/samples/GetCountryCodeSamples.md</loc>
+    <lastmod>2022-10-10</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Rendering/samples/MapsRenderingTilesImageriesImagesSamples.md</loc>
+    <lastmod>2024-07-26</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Routing/samples/RouteDirectionsSamples.md</loc>
+    <lastmod>2023-07-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Routing/samples/RouteMatrixSamples.md</loc>
+    <lastmod>2023-07-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Routing/samples/RouteRangeSamples.md</loc>
+    <lastmod>2023-07-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Search/samples/MapsSearchSamples.md</loc>
+    <lastmod>2024-09-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.TimeZone/samples/MapsTimeZoneSamples.md</loc>
+    <lastmod>2024-07-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/maps/Azure.Maps.Weather/samples/MapsWeatherSamples.md</loc>
+    <lastmod>2024-09-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/monitor/Azure.Monitor.Ingestion/samples/Sample1_LogData.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/monitor/Azure.Monitor.Ingestion/samples/Sample1_LogDataAsync.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/monitor/Azure.Monitor.Ingestion/samples/Sample2_VerifyLogs.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/monitor/Azure.Monitor.Ingestion/samples/Sample2_VerifyLogsAsync.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/monitor/Azure.Monitor.Ingestion/samples/Sample3_LogDataWithMaxConcurrency.md</loc>
+    <lastmod>2023-06-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/monitor/Azure.Monitor.Ingestion/samples/Sample3_LogDataWithMaxConcurrencyAsync.md</loc>
+    <lastmod>2023-06-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/network/Azure.ResourceManager.Network/samples/Sample1_ManagingVirtualNetworks.md</loc>
+    <lastmod>2022-08-17</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/network/Azure.ResourceManager.Network/samples/Sample2_ManagingNetworkInterfaces.md</loc>
+    <lastmod>2022-07-02</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/playwrighttesting/Azure.Developer.MicrosoftPlaywrightTesting.NUnit/samples/Sample1_CustomisingServiceParameters.md</loc>
+    <lastmod>2024-10-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/playwrighttesting/Azure.Developer.MicrosoftPlaywrightTesting.NUnit/samples/Sample2_SetDefaultAuthenticationMechanism.md</loc>
+    <lastmod>2024-10-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.DataMap/samples/Sample1_GetTypeByName.md</loc>
+    <lastmod>2024-03-12</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.DataMap/samples/Sample1_GetTypeByNameAsync.md</loc>
+    <lastmod>2024-03-12</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample10_ListDetachedReceivedShares.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample11_ListAttachedReceivedShares.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample12_DeleteReceivedShare.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample13_GetReceivedShare.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample1_CreateSentShare.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample2_CreateSentShareInvitation.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample3_GetSentShareInvitation.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample4_ListSentShareInvitations.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample5_DeleteSentShareInvitation.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample6_DeleteSentShare.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample7_GetSentShare.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample8_ListSentShares.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Sharing/samples/Sample9_CreateReceivedShare.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Workflows/samples/Sample1_Workflows.md</loc>
+    <lastmod>2023-11-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Workflows/samples/Sample2_SubmitUserRequests.md</loc>
+    <lastmod>2023-11-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Workflows/samples/Sample3_WorkflowTasks.md</loc>
+    <lastmod>2023-11-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/purview/Azure.Analytics.Purview.Workflows/samples/Sample4_WorkflowRuns.md</loc>
+    <lastmod>2023-11-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resourcemanager/Azure.ResourceManager/docs/Sample1_HelloWorld.md</loc>
+    <lastmod>2024-08-16</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resourcemanager/Azure.ResourceManager/docs/Sample1_HelloWorldAsync.md</loc>
+    <lastmod>2024-08-16</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resourcemanager/Azure.ResourceManager/docs/Sample2_ManagingResourceGroups.md</loc>
+    <lastmod>2024-08-16</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resourcemanager/Azure.ResourceManager/docs/Sample3_CreatingAVirtualNetwork.md</loc>
+    <lastmod>2024-08-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resourcemanager/Azure.ResourceManager/docs/Sample4_MultiTenant.md</loc>
+    <lastmod>2023-09-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resourcemanager/Azure.ResourceManager/docs/Samples.md</loc>
+    <lastmod>2023-09-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resources/Azure.ResourceManager.Resources/samples/Sample1_ManagingApplicationDefinitions.md</loc>
+    <lastmod>2022-03-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/resources/Azure.ResourceManager.Resources/samples/Sample2_ManagingDeployments.md</loc>
+    <lastmod>2022-10-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/schemaregistry/Azure.Data.SchemaRegistry/samples/Sample01_HelloWorld.md</loc>
+    <lastmod>2024-07-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/schemaregistry/Azure.Data.SchemaRegistry/samples/Sample02_Serialization.md</loc>
+    <lastmod>2024-07-01</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample01a_HelloWorld.md</loc>
+    <lastmod>2020-06-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample01b_HelloWorldAsync.md</loc>
+    <lastmod>2020-06-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample02_Service.md</loc>
+    <lastmod>2023-01-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample03_Index.md</loc>
+    <lastmod>2020-06-23</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample04_FieldBuilderIgnore.md</loc>
+    <lastmod>2024-09-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample05_IndexingDocuments.md</loc>
+    <lastmod>2024-04-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample06_EncryptedIndex.md</loc>
+    <lastmod>2024-04-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample07_VectorSearch.md</loc>
+    <lastmod>2024-05-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample07_VectorSearch_UsingFieldBuilder.md</loc>
+    <lastmod>2024-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample07_VectorSearch_UsingReducedEmbeddings.md</loc>
+    <lastmod>2024-10-04</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample07_VectorSearch_UsingSemanticHybridQuery.md</loc>
+    <lastmod>2024-10-04</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample07_VectorSearch_UsingVectorizableTextQuery.md</loc>
+    <lastmod>2024-10-04</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample07_VectorSearch_UsingVectorizedQuery.md</loc>
+    <lastmod>2024-10-04</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample08_SemanticSearch.md</loc>
+    <lastmod>2024-09-24</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/search/Azure.Search.Documents/samples/Sample09_QuerySession.md</loc>
+    <lastmod>2024-02-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample00_AuthenticateClient.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample01_SendReceive.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample02_MessageSettlement.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample03_SendReceiveSessions.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample04_Processor.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample05_SessionProcessor.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample06_Transactions.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample07_CrudOperations.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample08_Interop.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample09_Extensibility.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample10_ClaimCheck.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample11_CloudEvents.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample12_ManagingRules.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample13_AdvancedConfiguration.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample14_AMQPMessage.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample15_MockingClientTypes.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample16_CrossReceiverMessageSettlement.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.Messaging.ServiceBus/samples/Sample17_BatchDelete.md</loc>
+    <lastmod>2024-09-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.ResourceManager.ServiceBus/samples/Sample1_ManagingTopics.md</loc>
+    <lastmod>2022-03-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/servicebus/Azure.ResourceManager.ServiceBus/samples/Sample2_ManagingQueues.md</loc>
+    <lastmod>2022-03-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService/samples/Sample01_StronglyTypedHub.md</loc>
+    <lastmod>2021-11-17</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService/samples/Sample02_CustomizingJsonSerialization.md</loc>
+    <lastmod>2023-04-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService/samples/Sample03_IntegrationWithAppGateway.md</loc>
+    <lastmod>2023-04-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService/samples/Sample04_MessagePack.md</loc>
+    <lastmod>2023-11-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/signalr/Microsoft.Azure.WebJobs.Extensions.SignalRService/samples/Sample05_HttpRetryOptions.md</loc>
+    <lastmod>2023-11-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/sqlmanagement/Azure.ResourceManager.Sql/samples/Sample1_ManagingManagedInstance.md</loc>
+    <lastmod>2022-07-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/sqlmanagement/Azure.ResourceManager.Sql/samples/Sample2_ManagingManagedDatabases.md</loc>
+    <lastmod>2022-03-30</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/storage/Azure.ResourceManager.Storage/samples/Sample1_ManagingStorageAccounts.md</loc>
+    <lastmod>2022-07-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/storage/Azure.ResourceManager.Storage/samples/Sample2_ManagingBlobContainers.md</loc>
+    <lastmod>2022-07-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/storage/Azure.ResourceManager.Storage/samples/Sample3_ManagingFileShares.md</loc>
+    <lastmod>2022-07-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.AccessControl/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2023-07-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts/samples/Sample1_HelloWorldPipeline.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts/samples/Sample2_HelloWorldNotebook.md</loc>
+    <lastmod>2021-12-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts/samples/Sample3_HelloWorldTrigger.md</loc>
+    <lastmod>2021-12-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts/samples/Sample4_HelloWorldDataFlow.md</loc>
+    <lastmod>2021-12-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts/samples/Sample5_HelloWorldDataset.md</loc>
+    <lastmod>2021-12-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Artifacts/samples/Sample6_HelloWorldLinkedService.md</loc>
+    <lastmod>2021-12-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.ManagedPrivateEndpoints/samples/Sample1_HelloManangedPrivateEndpoint.md</loc>
+    <lastmod>2023-07-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Monitoring/samples/Sample1_PipelineMonitoring.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Spark/samples/Sample1_SubmitSparkJob.md</loc>
+    <lastmod>2023-07-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Spark/samples/Sample1_SubmitSparkJobAsync.md</loc>
+    <lastmod>2023-07-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Spark/samples/Sample2_ExecuteSparkStatement.md</loc>
+    <lastmod>2023-07-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/synapse/Azure.Analytics.Synapse.Spark/samples/Sample2_ExecuteSparkStatementAsync.md</loc>
+    <lastmod>2023-07-03</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample0Auth.md</loc>
+    <lastmod>2021-06-22</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample1CreateDeleteTables.md</loc>
+    <lastmod>2023-02-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample2CreateDeleteEntities.md</loc>
+    <lastmod>2024-07-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample3QueryTables.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample4QueryEntities.md</loc>
+    <lastmod>2024-07-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample5UpdateUpsertEntities.md</loc>
+    <lastmod>2023-02-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample6TransactionalBatch.md</loc>
+    <lastmod>2023-02-08</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/tables/Azure.Data.Tables/samples/Sample7Serialization.md</loc>
+    <lastmod>2023-12-04</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/template/.content/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2023-01-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/template/.content/samples/Sample1_HelloWorldAsync.md</loc>
+    <lastmod>2023-01-25</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/template/Azure.Template/samples/Sample1.HelloWorldAsync.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/template/Azure.Template/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample10_MultiLabelClassify.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample11_ExtractiveSummarize.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample12_AbstractiveSummarize.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample1_DetectLanguage.md</loc>
+    <lastmod>2023-06-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample2.1_AnalyzeSentimentWithOpinionMining.md</loc>
+    <lastmod>2023-02-21</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample2_AnalyzeSentiment.md</loc>
+    <lastmod>2023-02-21</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample3_ExtractKeyPhrases.md</loc>
+    <lastmod>2023-02-21</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample4_RecognizeEntities.md</loc>
+    <lastmod>2023-02-21</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample5_RecognizePiiEntities.md</loc>
+    <lastmod>2023-02-21</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample6_RecognizeLinkedEntities.md</loc>
+    <lastmod>2023-02-21</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample7_AnalyzeHealthcareEntities.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample8_RecognizeCustomEntities.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample9_SingleLabelClassify.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample_AnalyzeActions.md</loc>
+    <lastmod>2023-06-15</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample_LROPolling.md</loc>
+    <lastmod>2023-06-14</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/textanalytics/Azure.AI.TextAnalytics/samples/Sample_MockClient.md</loc>
+    <lastmod>2023-02-17</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Document/samples/Sample1_StartTranslation.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Document/samples/Sample2_PollIndividualDocuments.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Document/samples/Sample3_OperationsHistory.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Document/samples/Sample4_MultipleInputs.md</loc>
+    <lastmod>2022-11-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Document/samples/Sample5_SynchronousTranslation.md</loc>
+    <lastmod>2024-08-12</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample0_CreateClient.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample1_GetLanguages.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample1_GetLanguagesAync.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample2_Translate.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample2_TranslateAsync.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample3_Transliterate.md</loc>
+    <lastmod>2023-09-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample3_TransliterateAsync.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample4_BreakSentence.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample4_BreakSentenceAsync.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample5_DictionaryLookup.md</loc>
+    <lastmod>2023-09-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample5_DictionaryLookupAsync.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample6_DictionaryExamples.md</loc>
+    <lastmod>2023-09-06</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/translation/Azure.AI.Translation.Text/samples/Sample6_DictionaryExamplesAsync.md</loc>
+    <lastmod>2024-05-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample01_HellowWorld.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample02_DenseCaptions.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample03_Tags.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample04_Objects.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample05_SmartCrops.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample06_People.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample07_Read.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/vision/Azure.AI.Vision.ImageAnalysis/samples/Sample08_AllFeatures.md</loc>
+    <lastmod>2024-01-18</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/webpubsub/Azure.Messaging.WebPubSub.Client/samples/Sample1_HelloWorld.md</loc>
+    <lastmod>2023-01-09</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/webpubsub/Azure.ResourceManager.WebPubSub/samples/Sample1_ManagingWebPubSub.md</loc>
+    <lastmod>2024-01-29</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub/samples/Sample1_Negotiate.md</loc>
+    <lastmod>2023-04-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub/samples/Sample2_SendMessage.md</loc>
+    <lastmod>2023-04-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub/samples/Sample3_EventNotification.md</loc>
+    <lastmod>2023-04-27</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-net/refs/heads/main/sdk/webpubsub/Microsoft.Azure.Functions.Worker.Extensions.WebPubSub/samples/Sample4_HttpTriggerInputBinding.md</loc>
+    <lastmod>2023-04-27</lastmod>
+</url>
 </urlset>
