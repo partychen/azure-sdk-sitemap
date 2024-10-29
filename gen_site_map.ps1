@@ -1,7 +1,9 @@
-$configPath = "./config.json"
-$config = Get-Content -Raw -Path $configPath | ConvertFrom-Json
-
 $workingFolder = $env:GITHUB_WORKSPACE
+
+$configPath = "$workingFolder\config.json"
+$config = Get-Content -Raw -Path $configPath | ConvertFrom-Json
+Write-Host "Config loaded from $configPath"
+
 $repoDir = "$workingFolder\github_repos"
 $sitemapDir = "$workingFolder\sitemaps"
 New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
