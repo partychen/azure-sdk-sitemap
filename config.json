@@ -23,8 +23,7 @@
             "name": "azure-sdk-for-python",
             "url": "https://github.com/azure/azure-sdk-for-python",
             "filters": [
-                "sdk/.*/samples/*\\.md",
-                "sdk/.*/samples/*\\.py",
+                "sdk/.*/samples/.*\\.(md|py)",
                 "!sdk/.*/samples/README\\.md"
             ],
             "sitemap": "azure-sdk-for-python.xml"

@@ -13,9 +13,9 @@ foreach ($repo in $config.repos) {
     $repoUrl = $repo.url
     $sitemapName = $repo.sitemap
 
-    $repoDir = "$repoDir\$repoName"
-    git clone -c core.longpaths=true $repoUrl $repoDir
-    Set-Location $repoDir
+    $currentRepoDir = "$repoDir\$repoName"
+    git clone -c core.longpaths=true $repoUrl $currentRepoDir
+    Set-Location $currentRepoDir
 
     $includes = ($repo.filters | Where-Object { $_ -notmatch "^!" } | ForEach-Object { $_ }) -join "|"
     $excludes = ($repo.filters | Where-Object { $_ -match "^!" } | ForEach-Object { $_ -replace "^!", "" }) -join "|"
@@ -53,5 +53,6 @@ $sitemapEntriesJoined
     $sitemapContent | Out-File -Encoding UTF8 $sitemapFilePath
 
     Write-Host "Sitemap generated for $repoName at $sitemapFilePath"
-    Set-Location $workingFolder
 }
+
+Set-Location $workingFolder
