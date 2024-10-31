@@ -122,7 +122,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_chat_completions_with_azure_monitor_tracing.py</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_chat_completions_with_defaults.py</loc>
@@ -150,7 +150,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_chat_completions_with_tracing.py</loc>
-    <lastmod>2024-10-29</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_embeddings.py</loc>
@@ -3202,7 +3202,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-ingestion/samples/async_samples/sample_custom_error_callback_async.py</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-ingestion/samples/async_samples/sample_send_small_logs_async.py</loc>
@@ -3222,7 +3222,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-ingestion/samples/sample_custom_error_callback.py</loc>
-    <lastmod>2024-02-02</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-ingestion/samples/sample_send_small_logs.py</loc>
@@ -3602,15 +3602,15 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_authentication_async.py</loc>
-    <lastmod>2024-05-21</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_batch_query_async.py</loc>
-    <lastmod>2024-04-19</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_log_query_async.py</loc>
-    <lastmod>2024-04-19</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_logs_query_visualization_async.py</loc>
@@ -3618,27 +3618,27 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_metric_definitions_async.py</loc>
-    <lastmod>2024-04-19</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_metric_namespaces_async.py</loc>
-    <lastmod>2023-06-26</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_metrics_query_async.py</loc>
-    <lastmod>2023-06-26</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_metrics_query_multiple_async.py</loc>
-    <lastmod>2024-03-15</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/async_samples/sample_resource_logs_query_async.py</loc>
-    <lastmod>2024-04-19</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/sample_authentication.py</loc>
-    <lastmod>2024-05-21</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/sample_batch_query.py</loc>
@@ -3674,11 +3674,11 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/sample_metrics_query.py</loc>
-    <lastmod>2023-06-26</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/sample_metrics_query_multiple.py</loc>
-    <lastmod>2024-03-15</lastmod>
+    <lastmod>2024-10-30</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/monitor/azure-monitor-query/samples/sample_resource_logs_query.py</loc>
