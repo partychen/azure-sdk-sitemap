@@ -74,7 +74,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/baremetalinfrastructure/azure-resourcemanager-baremetalinfrastructure/SAMPLE.md</loc>
-    <lastmod>2023-10-23</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/batch/azure-resourcemanager-batch/SAMPLE.md</loc>
@@ -102,7 +102,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/cognitiveservices/azure-resourcemanager-cognitiveservices/SAMPLE.md</loc>
-    <lastmod>2023-07-19</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/commerce/azure-resourcemanager-commerce/SAMPLE.md</loc>
@@ -154,7 +154,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/costmanagement/azure-resourcemanager-costmanagement/SAMPLE.md</loc>
-    <lastmod>2023-05-22</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/customerinsights/azure-resourcemanager-customerinsights/SAMPLE.md</loc>
@@ -166,7 +166,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/databox/azure-resourcemanager-databox/SAMPLE.md</loc>
-    <lastmod>2023-05-23</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/databoxedge/azure-resourcemanager-databoxedge/SAMPLE.md</loc>
@@ -202,7 +202,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/defendereasm/azure-resourcemanager-defendereasm/SAMPLE.md</loc>
-    <lastmod>2023-08-17</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/delegatednetwork/azure-resourcemanager-delegatednetwork/SAMPLE.md</loc>
@@ -222,7 +222,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/devhub/azure-resourcemanager-devhub/SAMPLE.md</loc>
-    <lastmod>2023-05-17</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/deviceprovisioningservices/azure-resourcemanager-deviceprovisioningservices/SAMPLE.md</loc>
@@ -258,7 +258,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/dynatrace/azure-resourcemanager-dynatrace/SAMPLE.md</loc>
-    <lastmod>2023-08-22</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/edgeorder/azure-resourcemanager-edgeorder/SAMPLE.md</loc>
@@ -430,7 +430,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/managedapplications/azure-resourcemanager-managedapplications/SAMPLE.md</loc>
-    <lastmod>2023-09-21</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/managednetworkfabric/azure-resourcemanager-managednetworkfabric/SAMPLE.md</loc>
@@ -454,7 +454,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/mediaservices/azure-resourcemanager-mediaservices/SAMPLE.md</loc>
-    <lastmod>2023-02-17</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/migrationdiscoverysap/azure-resourcemanager-migrationdiscoverysap/SAMPLE.md</loc>
@@ -522,7 +522,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/orbital/azure-resourcemanager-orbital/SAMPLE.md</loc>
-    <lastmod>2023-03-21</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/paloaltonetworks/azure-resourcemanager-paloaltonetworks-ngfw/SAMPLE.md</loc>
@@ -602,7 +602,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/reservations/azure-resourcemanager-reservations/SAMPLE.md</loc>
-    <lastmod>2023-02-07</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/resourceconnector/azure-resourcemanager-resourceconnector/SAMPLE.md</loc>
@@ -662,7 +662,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/signalr/azure-resourcemanager-signalr/SAMPLE.md</loc>
-    <lastmod>2023-10-23</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/sphere/azure-resourcemanager-sphere/SAMPLE.md</loc>
@@ -670,11 +670,11 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/springappdiscovery/azure-resourcemanager-springappdiscovery/SAMPLE.md</loc>
-    <lastmod>2024-01-23</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/sqlvirtualmachine/azure-resourcemanager-sqlvirtualmachine/SAMPLE.md</loc>
-    <lastmod>2023-06-13</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/standbypool/azure-resourcemanager-standbypool/SAMPLE.md</loc>
@@ -702,7 +702,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/streamanalytics/azure-resourcemanager-streamanalytics/SAMPLE.md</loc>
-    <lastmod>2024-01-22</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/subscription/azure-resourcemanager-subscription/SAMPLE.md</loc>
@@ -714,11 +714,11 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/synapse/azure-resourcemanager-synapse/SAMPLE.md</loc>
-    <lastmod>2023-02-10</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/timeseriesinsights/azure-resourcemanager-timeseriesinsights/SAMPLE.md</loc>
-    <lastmod>2023-02-27</lastmod>
+    <lastmod>2024-10-31</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-java/refs/heads/main/sdk/trustedsigning/azure-resourcemanager-trustedsigning/SAMPLE.md</loc>
