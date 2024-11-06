@@ -10,8 +10,12 @@ $robotsPath = "$sitemapDir\robots.txt"
 $sitemapIndexPath = "$sitemapDir\$($config.sitemap_index)"
 $currentDateFormatted = Get-Date -Format "yyyy-MM-dd"
 
-New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
-New-Item -ItemType Directory -Path $sitemapDir -Force | Out-Null
+if (-not (Test-Path -Path $repoDir)) {
+    New-Item -ItemType Directory -Path $repoDir | Out-Null
+}
+if (-not (Test-Path -Path $sitemapDir)) {
+    New-Item -ItemType Directory -Path $sitemapDir | Out-Null
+}
 function GenerateFile {
     param(
         [string]$path,
