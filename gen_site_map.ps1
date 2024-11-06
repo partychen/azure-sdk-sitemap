@@ -9,6 +9,7 @@ $sitemapDir = "$workingFolder\sitemaps"
 $robotsPath = "$sitemapDir\robots.txt"
 $sitemapIndexPath = "$sitemapDir\$($config.sitemap_index)"
 $currentDateFormatted = Get-Date -Format "yyyy-MM-dd"
+$currentRepoSitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps"
 
 if (-not (Test-Path -Path $repoDir)) {
     New-Item -ItemType Directory -Path $repoDir | Out-Null
@@ -71,7 +72,7 @@ $($urlEntries -join "`n")
 </urlset>
 "@
     
-    $sitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/$sitemapName"
+    $sitemapUrl = "$currentRepoSitemapUrl/$sitemapName"
     $sitemapEntries += @"
 <sitemap>
     <loc>$sitemapUrl</loc>
@@ -81,15 +82,16 @@ $($urlEntries -join "`n")
 }
 
 
-Write-Host "Generating sitemap index for $sitemapIndexPath"
+Write-Host "Generating sitemap index at $sitemapIndexPath"
 GenerateFile -path $sitemapIndexPath -content @"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 $($sitemapEntries -join "`n")
 </sitemapindex>
 "@
 
-Write-Host "Generating robot.txt for $robotsPath"
-$robotsEntries = @("User-agent: *", "", "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$($config.sitemap_index)")
+Write-Host "Generating robot.txt at $robotsPath"
+$robotsEntries = @("User-agent: *", "", "Sitemap: $currentRepoSitemapUrl/$($config.sitemap_index)")
 GenerateFile -path $robotsPath -content $($robotsEntries -join "`n")
 
 Set-Location $workingFolder
