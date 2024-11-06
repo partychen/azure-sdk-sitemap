@@ -8,7 +8,7 @@
                 "!sdk/.*/README\\.md"
             ],
             "sitemap": "azure-sdk-for-net.xml",
-            "enable": false
+            "enabled": false
         },
         {
             "name": "azure-sdk-for-java",
@@ -19,7 +19,7 @@
                 "!sdk/.*/CHANGELOG\\.md"
             ],
             "sitemap": "azure-sdk-for-java.xml",
-            "enable": false
+            "enabled": false
         },
         {
             "name": "azure-sdk-for-python",
@@ -29,7 +29,7 @@
                 "!sdk/identity/azure-identity/samples/README\\.md"
             ],
             "sitemap": "azure-sdk-for-python.xml",
-            "enable": true
+            "enabled": true
         }
     ],
     "sitemap_index": "sitemapindex.xml"

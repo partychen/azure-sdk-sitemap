@@ -7,18 +7,20 @@ Write-Host "Config loaded from $configPath"
 $repoDir = "$workingFolder\github_repos"
 $sitemapDir = "$workingFolder\sitemaps"
 $robotsPath = "$sitemapDir\robots.txt"
-New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
+$sitemapIndexPath = "$sitemapDir\$($config.sitemap_index)"
+$currentDateFormatted = Get-Date -Format "yyyy-MM-dd"
 
+New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
 function GenerateFile {
     param(
         [string]$path,
         [string]$content
     )
 
-    $content | Out-File -Encoding UTF8 $path
+    $content | Out-File -Encoding UTF8 -FilePath $path -Force
 }
 
-$sitemapIndexEntries = @()
+$sitemapEntries = @()
 foreach ($repo in $config.repos) {
     $repoName = $repo.name
     $repoUrl = $repo.url
@@ -39,7 +41,7 @@ foreach ($repo in $config.repos) {
     $includedFiles = $allFiles | Where-Object { $_ -match $includes }
     $filteredFiles = $includedFiles | Where-Object { $_ -notmatch $excludes }
 
-    $sitemapEntries = @()
+    $urlEntries = @()
     Write-Host "Generating sitemap for $repoName"
     
     foreach ($fileName in $filteredFiles) {
@@ -48,27 +50,24 @@ foreach ($repo in $config.repos) {
         $lastChangeDate = git log -1 --format="%cd" --date=short -- $fileName
         $rawRepoUrl = $repoUrl -replace 'https://github.com', 'https://raw.githubusercontent.com'
         $rawFileUrl = "$rawRepoUrl/refs/heads/main/$fileName" -replace '\\', '/'
-
-        $sitemapEntry = @"
+        $urlEntries += @"
 <url>
     <loc>$rawFileUrl</loc>
     <lastmod>$lastChangeDate</lastmod>
 </url>
 "@
-
-        $sitemapEntries += $sitemapEntry
     }
     
-    GenerateFile -path "$sitemapDir\$sitemapName" -content @"
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-$($sitemapEntries -join "`n")
-</sitemapindex>
-"@
     Write-Host "Sitemap generated for $repoName at $sitemapFilePath"
-
+    GenerateFile -path "$sitemapDir\$sitemapName" -content @"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+$($urlEntries -join "`n")
+</urlset>
+"@
+    
     $sitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/$sitemapFilePath"
-    $currentDateFormatted = Get-Date -Format "yyyy-MM-dd"
-    sitemapIndexEntries += @"
+    sitemapEntries += @"
 <sitemap>
     <loc>$sitemapUrl</loc>
     <lastmod>$currentDateFormatted</lastmod>
@@ -76,13 +75,15 @@ $($sitemapEntries -join "`n")
 "@
 }
 
-$sitemapIndexPath = "$sitemapDir\$($config.sitemap_index)"
-GenerateFile -path sitemapIndexPath -content @"
+
+Write-Host "Generating sitemap index for $sitemapIndexPath"
+GenerateFile -path $sitemapIndexPath -content @"
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-$($sitemapIndexEntries -join "`n")
+$($sitemapEntries -join "`n")
 </sitemapindex>
 "@
 
+Write-Host "Generating robot.txt for $robotsPath"
 $robotsEntries = @("User-agent: *", "", "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$sitemapIndexPath")
 GenerateFile -path $robotsPath -content $($robotsEntries -join "`n")
 
