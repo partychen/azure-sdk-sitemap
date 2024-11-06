@@ -1,4 +1,19 @@
 $workingFolder = $env:GITHUB_WORKSPACE
+function GenerateSitemap {
+    param (
+        [string[]]$sitemapEntries,
+        [string]$sitemapFilePath
+    )
+
+    $sitemapEntriesJoined = $sitemapEntries -join "`n"
+    $sitemapContent = @"
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+$sitemapEntriesJoined
+</urlset>
+"@
+    $sitemapContent | Out-File -Encoding UTF8 $sitemapFilePath
+}
 
 $configPath = "$workingFolder\config.json"
 $config = Get-Content -Raw -Path $configPath | ConvertFrom-Json
@@ -8,6 +23,7 @@ $repoDir = "$workingFolder\github_repos"
 $sitemapDir = "$workingFolder\sitemaps"
 New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
 
+$robotsContent = @("User-agent: *", "")
 foreach ($repo in $config.repos) {
     $repoName = $repo.name
     $repoUrl = $repo.url
@@ -42,17 +58,12 @@ foreach ($repo in $config.repos) {
         $sitemapEntries += $sitemapEntry
     }
     
-    $sitemapEntriesJoined = $sitemapEntries -join "`n"
-    $sitemapContent = @"
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-$sitemapEntriesJoined
-</urlset>
-"@
-    $sitemapFilePath = "$sitemapDir\$sitemapName"
-    $sitemapContent | Out-File -Encoding UTF8 $sitemapFilePath
-
-    Write-Host "Sitemap generated for $repoName at $sitemapFilePath"
+    GenerateSitemap -sitemapEntries $sitemapEntries -sitemapFilePath "$sitemapDir\$sitemapName"
+    Write-Host "Sitemap generated for $repoName at $sitemapDir\$sitemapName"
+    $robotsContent += "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$sitemapName"
 }
+
+$robots = $robotsContent -join "`n"
+$robots | Out-File -Encoding UTF8 "$sitemapDir\robots.txt"
 
 Set-Location $workingFolder
