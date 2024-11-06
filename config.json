@@ -1,13 +1,36 @@
 {
     "repos": [
         {
+            "name": "azure-sdk-for-net",
+            "url": "https://github.com/azure/azure-sdk-for-net",
+            "filters": [
+                "sdk/.*/Sample.*\\.md",
+                "!sdk/.*/README\\.md"
+            ],
+            "sitemap": "azure-sdk-for-net.xml",
+            "enable": false
+        },
+        {
+            "name": "azure-sdk-for-java",
+            "url": "https://github.com/azure/azure-sdk-for-java",
+            "filters": [
+                "sdk/.*/Sample.*\\.md",
+                "!sdk/.*/README\\.md",
+                "!sdk/.*/CHANGELOG\\.md"
+            ],
+            "sitemap": "azure-sdk-for-java.xml",
+            "enable": false
+        },
+        {
             "name": "azure-sdk-for-python",
             "url": "https://github.com/azure/azure-sdk-for-python",
             "filters": [
                 "sdk/identity/azure-identity/samples/.*\\.(md|py)",
                 "!sdk/identity/azure-identity/samples/README\\.md"
             ],
-            "sitemap": "azure-sdk-for-python.xml"
+            "sitemap": "azure-sdk-for-python.xml",
+            "enable": true
         }
-    ]
+    ],
+    "sitemap_index": "sitemapindex.xml"
 }

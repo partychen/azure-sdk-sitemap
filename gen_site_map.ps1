@@ -1,19 +1,4 @@
 $workingFolder = $env:GITHUB_WORKSPACE
-function GenerateSitemap {
-    param (
-        [string[]]$sitemapEntries,
-        [string]$sitemapFilePath
-    )
-
-    $sitemapEntriesJoined = $sitemapEntries -join "`n"
-    $sitemapContent = @"
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-$sitemapEntriesJoined
-</urlset>
-"@
-    $sitemapContent | Out-File -Encoding UTF8 $sitemapFilePath
-}
 
 $configPath = "$workingFolder\config.json"
 $config = Get-Content -Raw -Path $configPath | ConvertFrom-Json
@@ -21,13 +6,28 @@ Write-Host "Config loaded from $configPath"
 
 $repoDir = "$workingFolder\github_repos"
 $sitemapDir = "$workingFolder\sitemaps"
+$robotsPath = "$sitemapDir\robots.txt"
 New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
 
-$robotsContent = @("User-agent: *", "")
+function GenerateFile {
+    param(
+        [string]$path,
+        [string]$content
+    )
+
+    $content | Out-File -Encoding UTF8 $path
+}
+
+$sitemapIndexEntries = @()
 foreach ($repo in $config.repos) {
     $repoName = $repo.name
     $repoUrl = $repo.url
     $sitemapName = $repo.sitemap
+
+    if ($repo.enabled -eq $false) {
+        Write-Host "Skipping $repoName as it is disabled"
+        continue
+    }
 
     $currentRepoDir = "$repoDir\$repoName"
     git clone -c core.longpaths=true $repoUrl $currentRepoDir
@@ -41,6 +41,7 @@ foreach ($repo in $config.repos) {
 
     $sitemapEntries = @()
     Write-Host "Generating sitemap for $repoName"
+    
     foreach ($fileName in $filteredFiles) {
         Write-Host "Processing $fileName"
 
@@ -58,12 +59,31 @@ foreach ($repo in $config.repos) {
         $sitemapEntries += $sitemapEntry
     }
     
-    GenerateSitemap -sitemapEntries $sitemapEntries -sitemapFilePath "$sitemapDir\$sitemapName"
-    Write-Host "Sitemap generated for $repoName at $sitemapDir\$sitemapName"
-    $robotsContent += "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$sitemapName"
+    GenerateFile -path "$sitemapDir\$sitemapName" -content @"
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+$($sitemapEntries -join "`n")
+</sitemapindex>
+"@
+    Write-Host "Sitemap generated for $repoName at $sitemapFilePath"
+
+    $sitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/$sitemapFilePath"
+    $currentDateFormatted = Get-Date -Format "yyyy-MM-dd"
+    sitemapIndexEntries += @"
+<sitemap>
+    <loc>$sitemapUrl</loc>
+    <lastmod>$currentDateFormatted</lastmod>
+</sitemap>
+"@
 }
 
-$robots = $robotsContent -join "`n"
-$robots | Out-File -Encoding UTF8 "$sitemapDir\robots.txt"
+$sitemapIndexPath = "$sitemapDir\$($config.sitemap_index)"
+GenerateFile -path sitemapIndexPath -content @"
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+$($sitemapIndexEntries -join "`n")
+</sitemapindex>
+"@
+
+$robotsEntries = @("User-agent: *", "", "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$sitemapIndexPath")
+GenerateFile -path $robotsPath -content $($robotsEntries -join "`n")
 
 Set-Location $workingFolder
