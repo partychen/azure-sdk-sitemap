@@ -63,7 +63,7 @@ foreach ($repo in $config.repos) {
 "@
     }
     
-    Write-Host "Sitemap generated for $repoName at $sitemapFilePath"
+    Write-Host "Sitemap generated for $repoName at $sitemapDir\$sitemapName"
     GenerateFile -path "$sitemapDir\$sitemapName" -content @"
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -71,7 +71,7 @@ $($urlEntries -join "`n")
 </urlset>
 "@
     
-    $sitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/$sitemapFilePath"
+    $sitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/$sitemapName"
     $sitemapEntries += @"
 <sitemap>
     <loc>$sitemapUrl</loc>
@@ -89,7 +89,7 @@ $($sitemapEntries -join "`n")
 "@
 
 Write-Host "Generating robot.txt for $robotsPath"
-$robotsEntries = @("User-agent: *", "", "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$sitemapIndexPath")
+$robotsEntries = @("User-agent: *", "", "Sitemap: https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/sitemaps/$($config.sitemap_index)")
 GenerateFile -path $robotsPath -content $($robotsEntries -join "`n")
 
 Set-Location $workingFolder
