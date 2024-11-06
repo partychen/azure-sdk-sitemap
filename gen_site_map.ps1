@@ -72,7 +72,7 @@ $($urlEntries -join "`n")
 "@
     
     $sitemapUrl = "https://raw.githubusercontent.com/partychen/azure-sdk-sitemap/refs/heads/main/$sitemapFilePath"
-    sitemapEntries += @"
+    $sitemapEntries += @"
 <sitemap>
     <loc>$sitemapUrl</loc>
     <lastmod>$currentDateFormatted</lastmod>
