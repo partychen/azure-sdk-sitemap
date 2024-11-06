@@ -11,6 +11,7 @@ $sitemapIndexPath = "$sitemapDir\$($config.sitemap_index)"
 $currentDateFormatted = Get-Date -Format "yyyy-MM-dd"
 
 New-Item -ItemType Directory -Path $repoDir -Force | Out-Null
+New-Item -ItemType Directory -Path $sitemapDir -Force | Out-Null
 function GenerateFile {
     param(
         [string]$path,
