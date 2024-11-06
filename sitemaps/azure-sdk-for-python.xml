@@ -109,6 +109,14 @@
     <lastmod>2024-10-29</lastmod>
 </url>
 <url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_chat_completions_from_input_prompt_string.py</loc>
+    <lastmod>2024-11-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_chat_completions_from_input_prompty.py</loc>
+    <lastmod>2024-11-05</lastmod>
+</url>
+<url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ai/azure-ai-inference/samples/sample_chat_completions_streaming.py</loc>
     <lastmod>2024-08-27</lastmod>
 </url>
@@ -1066,7 +1074,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/cosmos/azure-cosmos/samples/examples_async.py</loc>
-    <lastmod>2024-10-31</lastmod>
+    <lastmod>2024-11-05</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/cosmos/azure-cosmos/samples/index_management.py</loc>
@@ -1082,7 +1090,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/cosmos/azure-cosmos/samples/session_token_management_async.py</loc>
-    <lastmod>2024-10-31</lastmod>
+    <lastmod>2024-11-05</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/cosmos/azure-cosmos/samples/tracing_open_telemetry.py</loc>
@@ -3190,7 +3198,7 @@
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/ml/azure-ai-ml/samples/ml_samples_workspace.py</loc>
-    <lastmod>2024-08-30</lastmod>
+    <lastmod>2024-11-05</lastmod>
 </url>
 <url>
     <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/modelsrepository/azure-iot-modelsrepository/samples/client_configuration_sample.py</loc>
