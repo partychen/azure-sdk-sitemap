@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/azure-aad-auth-with-redis-py.md</loc>
+    <lastmod>2024-06-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/azure-aad-auth-with-redis.py</loc>
+    <lastmod>2024-06-28</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/client_certificate_credential.md</loc>
+    <lastmod>2023-10-13</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/control_interactive_prompts.py</loc>
+    <lastmod>2021-03-05</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/credential_creation_code_snippets.py</loc>
+    <lastmod>2024-06-11</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/custom_credentials.py</loc>
+    <lastmod>2023-08-04</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/key_vault_cert.py</loc>
+    <lastmod>2021-08-20</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/on_behalf_of_client_assertion.py</loc>
+    <lastmod>2024-06-07</lastmod>
+</url>
+<url>
+    <loc>https://raw.githubusercontent.com/azure/azure-sdk-for-python/refs/heads/main/sdk/identity/azure-identity/samples/user_authentication.py</loc>
+    <lastmod>2021-10-01</lastmod>
+</url>
+</urlset>
